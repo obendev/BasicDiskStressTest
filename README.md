@@ -1,10 +1,15 @@
 # BasicDiskStressTest
 
-This repository contains a simple PowerShell script for basic disk stress testing. The script writes a large file with random data to the disk and then copies it, stressing both write and read operations.
+This repository contains simple scripts for basic disk stress testing in three different languages: Rust, Python, and PowerShell. Each script writes a file with random data to the disk and then copies it, stressing both write and read operations.
+
+## Scripts
+
+The repository includes the following scripts:
+
+1. `rust/src/main.rs`: A Rust script for disk stress testing.
+2. `python/BasicDiskStressTest/main.py`: A Python script for disk stress testing.
+3. `powershell/BasicDiskStressTest.ps1`: A PowerShell script for disk stress testing.
 
 ## Usage
 
-Modify the following variables as needed:
-   - `$fileSize`: This defines the size of the file to be created in bytes. By default, it is set to 1GB.
-   - `$filePath` and `$copyPath`: These define the paths of the original file and its copy, respectively. By default, they are set to create the files in the current user's home directory.
-   - `$bufferSize`: This defines the size of the buffer used to write data to the file in bytes. By default, it is set to 1024 bytes.
+Please refer to the individual README.md files in each script's directory for more specific usage instructions and information.

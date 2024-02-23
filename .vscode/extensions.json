@@ -1,5 +1,11 @@
 {
     "recommendations": [
-        "ms-vscode.powershell"
+        // PowerShell
+        "ms-vscode.powershell",
+        // Python
+        "ms-python.python",
+        "ms-python.black-formatter",
+        // Rust
+        "rust-lang.rust-analyzer"
     ]
 }
